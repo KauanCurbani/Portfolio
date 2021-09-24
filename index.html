@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kauan Curbani | Portfólio</title>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="img/ui.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <!-- Descrição -->
+    <meta name="description" content="Desenvolvedor WEB Front-End HTML CSS JS - Santa Catarina -SC, Quer falar comigo? Não exite em mandar mensagem!">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class='bx bx-menu'></i>
+        </label>
+        <label class="logo">Portfólio</label>
+        <ul>
+            <li><a href="#welcome">Início</a></li>
+            <li><a href="#aboutme">Sobre mim</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#conhecimento">Conhecimento</a></li>
+        </ul>
+    </nav>
+    <section id="welcome">
+        <div class="container"></div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        for(var i =1; i<= 2500; i++){
+		  $('.container').append('<div class="box"></div>')
+		}
+    </script>
+        <div class="welcometxt">
+            <h2>Kauan Curbani</h2>
+            <p class="line line-animation">Desenvolvedor Web Front-End.</p>  
+            <div class="button">
+                <a href="https://br.linkedin.com/in/kauan-curbani-467327201" target="_blank">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <i class='bx bxl-linkedin'></i>  LinkedIn
+                </a>
+        </div>
+    </section>
+    <section id="aboutme">
+        <h2>
+            Sobre mim!
+        </h2>
+        <div class="abouttxt">
+            <img class="aboutimg" id="img" src="img/ui.png" alt="">
+                <div class="scitxt">
+                    <p id="txtabout">
+                        Olá, sou Kauan, tenho 17 anos e uma grande vontade de aprender,
+                     comecei a desenvolver no inicio deste ano, com o intuito de poder criar sites e projetos.
+                     Desde pequeno sou fascinado por tecnologia, por isso vivo aprendendo coisas novas,
+                     gosto muito de deixar os projetos funcionais e bonitos.
+                     Apesar de ter muito interesse na área, ainda não tenho nenhuma experiência profissional, assim então,<br><br>
+                     <b>ESTOU DISPONÍVEL PARA NOVAS EXPERIÊNCIAS!!</b> <br><br><br>
+                     <b>Minhas redes sociais!</b>
+                     </p>
+                    <ul class="sci">
+                        <li><a href="" target="_blank" class="facebook">
+                            <i class='bx bxl-facebook'></i>
+                        </a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=5547984552011" class="whatsapp">
+                            <i class='bx bxl-whatsapp' ></i>
+                        </a></li>
+                        <li><a href="https://br.linkedin.com/in/kauan-curbani-467327201" target="_blank" class="linkedin">
+                            <i class='bx bxl-linkedin' ></i>
+                        </a></li>
+                        <li><a href="https://www.instagram.com/curbanii_/" target="_blank" class="instagram">
+                            <i class='bx bxl-instagram' ></i>
+                        </a></li>
+                    </ul>
+                </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="projectstxt">
+            <h2>Projetos</h2>
+            <p>Aqui está! um pouquinho do meu trabalho pra vocês:</p>
+        </div>
+        <div class="boxs">
+            <div class="box1">
+                <h2>Ainda não há nada Aqui!</h2>
+                <p>Em breve!</p>
+            </div>
+            <div class="box2">
+                <h2>Ainda não há nada Aqui!</h2>
+                <p>Em breve!</p>
+            </div>
+            <div class="box3">
+                <h2>Ainda não há nada Aqui!</h2>
+                <p>Em breve!</p>
+            </div>
+            <div class="box4">
+                <h2>Ainda não há nada Aqui!</h2>
+                <p>Em breve!</p>
+            </div>
+        </div>
+    </section>
+    <section id="conhecimento">
+        <h2>Conhecimento</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit officiis vitae architecto delectus sit illo commodi obcaecati sint neque ducimus temporibus, sed recusandae earum aspernatur? Accusamus dolore recusandae non fugit?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolorem aspernatur eum delectus illum numquam est vitae, mollitia perspiciatis rem blanditiis tenetur reiciendis quam similique commodi in voluptate vero? Nulla.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni reprehenderit eaque voluptatem est nemo praesentium fuga sed inventore, laudantium, porro odit blanditiis excepturi assumenda facilis quam quidem. Facere, iure vel.
+        </p>
+    </section>
+    <script src="vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll("#img"), {
+            max: 10,
+            speed: 200
+        });
+        VanillaTilt.init(document.querySelectorAll(".sci li a"), {
+            max: 25,
+            speed: 200,
+            glare: true,
+            "max-glare": .5,
+
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
